@@ -1,0 +1,21 @@
+{
+	"clouds": {
+		"title": "Clouds",
+		"image_uri": "/gallery/clouds.jpg",
+		"dimensions": "999x999 cm?",
+		"medium": "oil paint on linen?",
+		"date_started": "2014",
+		"date_finished": "2015"
+	},
+	"fire": {
+		"title": "Fire",
+		"image_uri": "/gallery/fire.jpg",
+		"dimensions": "999x999 cm?",
+		"medium": "oil paint on linen?",
+		"date_started": "2014",
+		"date_finished": "2015"
+	},
+	"index": {
+	    "layout": "../_layout.jade"
+	}
+}

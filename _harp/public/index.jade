@@ -1,0 +1,9 @@
+.container
+	p Welcome, this website is a work in progress.
+
+	- var slugs = Object.keys(public.gallery._data);
+	- var latest = public.gallery._data[slugs[0]];
+
+	a.main-link(href="/gallery")
+		img(src="#{ latest.image_uri }", alt="To the gallery")
+		span Visit the gallery

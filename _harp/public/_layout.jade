@@ -1,0 +1,25 @@
+doctype
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title #{ site_title }
+		link(rel="stylesheet", href="/layout.css")
+		script(src="/jquery/jquery.min.js")
+		script(src="/bootstrap/bootstrap.min.js")
+	body
+		header
+			nav#nav-main.container
+				ul
+					li
+						a(href="/") Joëlle
+					li
+						a(href="/gallery") Gallery
+					li
+						a(href="/articles") Articles
+
+		!= yield
+
+		footer
+			.container.text-center
+				p.text-muted Joëlle Hoogendoorn

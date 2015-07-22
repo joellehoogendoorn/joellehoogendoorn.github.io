@@ -1,0 +1,15 @@
+{
+  "domains": ["joellehoogendoorn.github.io"],
+  "globals": {
+    "site_title": "Joelle Hoogendoorn",
+    "site_url": "https://joellehoogendoorn.github.io",
+    "disqus": {
+      "enabled": false,
+      "shortname": ""
+    },
+    "sitemap": {
+      "enabled": false,
+      "changefreq": "daily"
+    }
+  }
+}

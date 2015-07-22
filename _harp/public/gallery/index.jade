@@ -1,0 +1,5 @@
+each gallery, slug in public.gallery._data
+	if gallery.image_uri
+		a.gallery-item(href="/gallery/#{ slug }")
+			img(src="#{ gallery.image_uri }", alt="#{ gallery.title }")
+			h1 #{ gallery.title }

@@ -1,0 +1,23 @@
+{
+  "name": "joellehoogendoorn.github.io",
+  "version": "0.1.0",
+  "description": "",
+  "main": "make.js",
+  "dependencies": {
+    "shelljs": "^0.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:joellehoogendoorn/joellehoogendoorn.github.io"
+  },
+  "author": "Joelle Hoogendoorn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joellehoogendoorn/joellehoogendoorn.github.io/issues"
+  },
+  "homepage": "https://github.com/joellehoogendoorn/joellehoogendoorn.github.io"
+}
