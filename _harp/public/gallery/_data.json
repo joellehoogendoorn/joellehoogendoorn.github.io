@@ -2,6 +2,7 @@
 	"clouds": {
 		"title": "Clouds",
 		"image_uri": "/gallery/clouds.jpg",
+		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "999x999 cm?",
 		"medium": "oil paint on linen?",
 		"date_started": "2014",
@@ -10,6 +11,7 @@
 	"fire": {
 		"title": "Fire",
 		"image_uri": "/gallery/fire.jpg",
+		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "999x999 cm?",
 		"medium": "oil paint on linen?",
 		"date_started": "2014",

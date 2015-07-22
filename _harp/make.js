@@ -10,7 +10,9 @@ target.bower = function() {
 
 	mkdir('-p', 'public/fonts');
 	cp('-f', 'bower_components/bootstrap/fonts/*', 'public/fonts');
+	cp('-f', 'bower_components/font-awesome/fonts/*', 'public/fonts');
 
 	mkdir('-p', 'public/bootstrap');
 	cp('-f', 'bower_components/bootstrap/dist/js/*', 'public/bootstrap');
+
 };

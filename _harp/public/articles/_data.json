@@ -1,0 +1,16 @@
+{
+	"project-clouds": {
+		"title": "Project: Clouds",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices arcu eget enim suscipit, id pulvinar nisl facilisis. Sed ornare felis vitae semper ultricies. Sed id condimentum neque. Praesent sit amet pretium elit. Ut in commodo libero. Nullam et fermentum mi. Duis nec ante accumsan justo feugiat dictum. Nam non blandit augue. ",
+		"work_slug": "clouds",
+		"date": "2015-07-22",
+		"author": "Joëlle Hoogendoorn"
+	},
+	"project-fire": {
+		"title": "Fire",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices arcu eget enim suscipit, id pulvinar nisl facilisis. Sed ornare felis vitae semper ultricies. Sed id condimentum neque. Praesent sit amet pretium elit. Ut in commodo libero. Nullam et fermentum mi. Duis nec ante accumsan justo feugiat dictum. Nam non blandit augue. ",
+		"work_slug": "fire",
+		"date": "2015-07-22",
+		"author": "Joëlle Hoogendoorn"
+	}
+}

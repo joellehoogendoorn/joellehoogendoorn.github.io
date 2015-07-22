@@ -1,0 +1,49 @@
+a.article-link {
+	display: block;
+	margin: 3rem 0;
+	padding: 3rem;
+	color: white;
+	background-size: 100% auto;
+	transition: all 0.35s;
+	transition-delay: 0.05s;
+	position: relative;
+
+	> * {
+		position: relative;
+	}
+}
+
+a.article-link:before{
+	background-color: rgba(0, 0, 0, 0.3);
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	transition: all 0.35s;
+	transition-delay: 0.05s;
+}
+
+a.article-link:hover {
+	text-decoration: none;
+	background-position: 0 -10rem;
+}
+
+a.article-link:hover:before {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+img.article-image-left {
+	display: block;
+	float: left;
+	margin-right: 3rem;
+	max-width: 33%;
+}
+
+img.article-image-right {
+	display: block;
+	float: right;
+	margin-left: 3rem;
+	max-width: 33%;
+}

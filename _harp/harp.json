@@ -3,6 +3,7 @@
   "globals": {
     "site_title": "Joelle Hoogendoorn",
     "site_url": "https://joellehoogendoorn.github.io",
+    "facebook_url": "https://www.facebook.com/joelle.hoogendoorn",
     "disqus": {
       "enabled": false,
       "shortname": ""
