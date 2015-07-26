@@ -1,21 +1,43 @@
-{
+{	
+	"heading-home": {
+		"title": "Heading Home",
+		"image_uri": "/gallery/heading-home.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
+	},
+	"hero-of-war": {
+		"title": "Hero of War",
+		"image_uri": "/gallery/hero-of-war.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "180 x 200 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
+	},
+	"palm-reading": {
+		"title": "Palm Reading",
+		"image_uri": "/gallery/palm-reading.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
+	},
 	"clouds": {
 		"title": "Clouds",
 		"image_uri": "/gallery/clouds.jpg",
 		"artist": "Joëlle Hoogendoorn",
-		"dimensions": "999x999 cm?",
-		"medium": "oil paint on linen?",
-		"date_started": "2014",
-		"date_finished": "2015"
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
 	},
 	"fire": {
 		"title": "Fire",
 		"image_uri": "/gallery/fire.jpg",
 		"artist": "Joëlle Hoogendoorn",
-		"dimensions": "999x999 cm?",
-		"medium": "oil paint on linen?",
-		"date_started": "2014",
-		"date_finished": "2015"
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
 	},
 	"index": {
 	    "layout": "../_layout.jade"
