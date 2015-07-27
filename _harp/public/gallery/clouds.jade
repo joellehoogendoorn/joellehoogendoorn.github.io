@@ -1,6 +1,12 @@
 a(href="#{ image_uri }")
 	img.gallery-image(src="#{ image_uri }")
 
+a.gallery-previous(href="#{ previous_uri }")
+	i.fa.fa-chevron-left
+
+a.gallery-next(href="#{ next_uri }")
+	i.fa.fa-chevron-right
+
 .gallery-properties.text-right
 	h1 #{ title }
 	p By #{ artist }
