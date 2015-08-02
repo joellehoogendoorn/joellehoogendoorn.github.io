@@ -1,0 +1,5 @@
+each work, slug in public.works._data
+	if work.image_uri
+		a.work-item(href="/works/#{ slug }")
+			img(src="#{ work.image_uri }", alt="#{ work.title }")
+			h1 #{ work.title }

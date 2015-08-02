@@ -7,25 +7,29 @@
 @fa-font-path: "/fonts";
 
 @import "index.less";
-@import "gallery/index.less";
-@import "articles/index.less";
+@import "works/index.less";
+@import "blog/index.less";
+@import "_navbar.less";
 
-#nav-main {
-	ul {
-		text-align: center;
-		margin: 0;
-		padding: 0;
-		li {
-			display: inline-block;
-			margin: 0;
-			padding: 3rem;
-			a {
+html {
+  background: url("/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 
-			}
-		}
-	}
+body {
+	background: none;
+}
+
+header {
+	margin-bottom: 80px;
+}
+
+#main {
+	padding-top: 80px;
+	padding-bottom: 80px;
 }
 
 footer {
+	margin-top: 80px;
 	padding: 10rem 0;
 }

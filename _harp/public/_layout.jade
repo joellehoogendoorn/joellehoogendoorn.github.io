@@ -7,21 +7,53 @@ html(lang="en")
 		link(rel="stylesheet", href="/layout.css")
 		script(src="/jquery/jquery.min.js")
 		script(src="/bootstrap/bootstrap.min.js")
-	body.text-justify
-		header
-			nav#nav-main.container
-				ul
-					li
-						a(href="/") Joëlle
-					li
-						a(href="/gallery") Gallery
-					li
-						a(href="/articles") Articles
+		script(src="/navbar.js")
 
-		!= yield
+	body.text-justify
+
+		nav#jh-nav-main
+			.jh-nav-background
+			.jh-nav-container
+				.jh-nav-contents
+					.jh-nav-links
+						.jh-nav-link
+							h1.text-center #[a(href="/blog") Articles]
+							p.text-justify
+								| I would like to keep you up to date with all the things I’m going to do during my Master of Fine Arts Painting.
+								|  On this page, I will show my painting process, sketches and the conceptual aspect of my work.
+						.jh-nav-link
+							h1.text-center #[a(href="/") Joëlle]
+							p.text-justify
+								| I’m a 22-year old aspiring artist who loves spending as much time possible with a painting brush in my hand.
+								| Currently studying Fine Art Painting at the Royal Academy of Fine Arts in Antwerp, Belgium.
+						.jh-nav-link
+							h1.text-center #[a(href="/works") Gallery]
+							p.text-justify
+								| My main focus is working with subjects that intrigue me and process these subjects in a personal way in my art.
+								| The thread in my work is expressing myself and displaying  feelings. Music is an very important aspect in my paintings.
+							p.text-justify
+								| I get inspired by travelling, every kind of media, cultures and black holes in society.
+
+			.jh-nav-container
+				.jh-nav-controls
+					button.jh-nav-toggle
+						.jh-nav-show-active
+							span.jh-nav-color.jh-nav-toggle-text Close
+							span.jh-nav-color.jh-nav-toggle-icon #[i.fa.fa-times.fa-fw]
+						.jh-nav-show-inactive
+							span.jh-nav-toggle-text.jh-text-shadow Menu
+							span.jh-nav-toggle-icon #[i.fa.fa-bars.fa-fw]
+
+		header
+			.container
+				h1 Joëlle Hoogendoorn
+
+		#main
+			!= yield
 
 		footer
 			.container.text-center
+				h2(style="text-shadow: white;") Don't be shy, get in touch!
 				ul.list-inline
 					if facebook_url
 						li #[a(href="#{ facebook_url }") #[i.fa.fa-facebook.fa-fw.fa-2x]]
@@ -29,6 +61,7 @@ html(lang="en")
 						li #[a(href="#{ twitter_url }") #[i.fa.fa-twitter.fa-fw.fa-2x]]
 					if linkedin_url
 						li #[a(href="#{ linkedin_url }") #[i.fa.fa-linkedin.fa-fw.fa-2x]]
+
 
 				p.text-muted Joëlle Hoogendoorn
 

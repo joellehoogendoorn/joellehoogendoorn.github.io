@@ -1,7 +1,7 @@
-{	
+{
 	"heading-home": {
 		"title": "Heading Home",
-		"image_uri": "/gallery/heading-home.jpg",
+		"image_uri": "/works/heading-home.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
@@ -9,7 +9,7 @@
 	},
 	"hero-of-war": {
 		"title": "Hero of War",
-		"image_uri": "/gallery/hero-of-war.jpg",
+		"image_uri": "/works/hero-of-war.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "180 x 200 cm",
 		"medium": "oil paint on linen",
@@ -17,7 +17,7 @@
 	},
 	"palm-reading": {
 		"title": "Palm Reading",
-		"image_uri": "/gallery/palm-reading.jpg",
+		"image_uri": "/works/palm-reading.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
@@ -25,7 +25,7 @@
 	},
 	"clouds": {
 		"title": "Clouds",
-		"image_uri": "/gallery/clouds.jpg",
+		"image_uri": "/works/clouds.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
@@ -33,7 +33,7 @@
 	},
 	"fire": {
 		"title": "Fire",
-		"image_uri": "/gallery/fire.jpg",
+		"image_uri": "/works/fire.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",

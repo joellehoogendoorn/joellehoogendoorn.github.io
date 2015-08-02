@@ -1,0 +1,132 @@
+.jh-nav-background {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url("/works/clouds.jpg");
+	background-size: cover;
+	z-index: 90;
+}
+
+.jh-nav-container {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	@media (min-width: @screen-sm-min) {
+		width: @container-sm;
+	}
+	@media (min-width: @screen-md-min) {
+		width: @container-md;
+	}
+	@media (min-width: @screen-lg-min) {
+		width: @container-lg;
+	}
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: @grid-gutter-width/2;
+	padding-right: @grid-gutter-width/2;
+}
+
+.jh-nav-contents {
+	position: relative;
+	max-height: 90vh;
+	color: white;
+	background: @text-color;
+	overflow-y: auto;
+}
+
+.jh-nav-controls {
+	position: relative;
+}
+
+#jh-nav-main {
+	.jh-nav-background {
+		transition: all 0.4s;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.jh-nav-contents {
+		transition: all 0.4s;
+		transform: translate(0, -100%);
+	}
+	.jh-nav-show-active {
+		display: none;
+	}
+	.jh-nav-show-inactive {
+		display: initial;
+	}
+}
+
+#jh-nav-main.active {
+	.jh-nav-background {
+		opacity: 1;
+		pointer-events: auto;
+	}
+	.jh-nav-contents {
+		transform: translate(0, 0);
+	}
+	.jh-nav-show-active {
+		display: initial;
+	}
+	.jh-nav-show-inactive {
+		display: none;
+	}
+}
+
+.jh-nav-toggle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 10px;
+	background: none;
+	border: none;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.jh-nav-toggle-text {
+	display: inline-block;
+	padding: 5px;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.jh-nav-toggle-icon {
+	display: inline-block;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 9999px;
+	box-shadow: 0 0 0 3pt currentColor inset;
+	* {
+		opacity: 1;
+		transition: all 0.3s;
+	}
+}
+
+.jh-nav-toggle:hover .jh-nav-toggle-icon * {
+	opacity: 0;
+}
+
+.jh-nav-toggle:hover .jh-nav-toggle-text {
+	opacity: 1;
+}
+
+.jh-nav-color {
+	color: white;
+}
+
+.jh-nav-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.jh-nav-link {
+	width: 22%;
+	margin: 5%;
+}
