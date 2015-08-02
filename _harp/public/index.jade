@@ -1,14 +1,9 @@
 .container
-	p
-		|Welcome, this website is a work in progress.
-	p
-		|I’m a 22-year old aspiring artist who loves spending as much time possible with a painting brush in my hand.
-	p
-		|Currently studying Fine Art Painting at the Royal Academy of Fine Arts in Antwerp, Belgium.
-
-	- var slugs = Object.keys(public.works._data);
-	- var latest = public.works._data[slugs[0]];
-
-	a.main-link(href="/works")
-		img(src="#{ latest.image_uri }", alt="View my works")
-		span View my works
+	each article, slug in public.blog._data
+		if slug !== 'index'
+			- var work = public.works._data[article.work_slug];
+			- var image_uri = article.image_uri || work.image_uri;
+			- var link_attributes = { style: image_uri ? 'background-image: url(' + image_uri + ');' : undefined };
+			a.article-link(href="/blog/#{ slug }")&attributes(link_attributes)
+				h1 #{ article.title }
+				p #{ article.description }
