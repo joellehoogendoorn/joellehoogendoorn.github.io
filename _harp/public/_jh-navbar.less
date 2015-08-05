@@ -35,23 +35,30 @@
 .jh-nav-contents {
 	position: relative;
 	max-height: 90vh;
-	color: white;
+	color: fade(white, 95%);
 	background: fade(@text-color, 95%);
+	padding: @grid-gutter-width;
 	overflow-y: auto;
+	overflow-x: visible;
 }
 
 .jh-nav-controls {
-	position: relative;
+	position: absolute;
+	top: 0;
+	right: @grid-gutter-width/2;
+	padding: 10px;
+	font-size: 3rem;
+	text-transform: uppercase;
 }
 
 #jh-nav-main {
 	.jh-nav-background {
-		transition: all 0.4s;
+		transition: all 0.4s linear;
 		opacity: 0;
 		pointer-events: none;
 	}
 	.jh-nav-contents {
-		transition: all 0.4s;
+		transition: all 0.4s ease-in;
 		transform: translate(0, -100%);
 	}
 	.jh-nav-show-active {
@@ -64,10 +71,12 @@
 
 #jh-nav-main.active {
 	.jh-nav-background {
+		transition: all 2.0s linear;
 		opacity: 1;
 		pointer-events: auto;
 	}
 	.jh-nav-contents {
+		transition: all 0.4s ease-out;
 		transform: translate(0, 0);
 	}
 	.jh-nav-show-active {
@@ -82,57 +91,5 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin: 0;
 	padding: 10px;
-	background: none;
-	border: none;
-	font-size: 3rem;
-	text-transform: uppercase;
-}
-
-.jh-nav-toggle:focus {
-	outline: none;
-}
-
-.jh-nav-toggle-text {
-	display: inline-block;
-	padding: 5px;
-	opacity: 0;
-	transition: all 0.3s;
-}
-
-.jh-nav-toggle-icon {
-	display: inline-block;
-	padding: 5px;
-	margin-left: 10px;
-	border-radius: 9999px;
-	box-shadow: 0 0 0 3pt currentColor inset;
-	* {
-		opacity: 1;
-		transition: all 0.3s;
-	}
-}
-
-.jh-nav-toggle:hover .jh-nav-toggle-icon * {
-	opacity: 0;
-}
-
-.jh-nav-toggle:hover .jh-nav-toggle-text {
-	opacity: 1;
-}
-
-.jh-nav-color {
-	color: white;
-}
-
-.jh-nav-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 20px;
-}
-
-.jh-nav-link {
-	width: 22%;
-	margin: 5%;
 }

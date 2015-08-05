@@ -1,11 +1,13 @@
 $(document).ready(function() {
 	var mainNav = $('#jh-nav-main');
+	var mainNavLinks = mainNav.find('.jh-nav-contents a');
 
-	mainNav.find('.jh-nav-toggle').on('click', function() {
+	$('#jh-nav-main-toggle').on('click', function() {
 		if (mainNav.hasClass('active')) {
 			mainNav.removeClass('active');
 		} else {
 			mainNav.addClass('active');
+			mainNavLinks.first().focus();
 		}
 	});
 

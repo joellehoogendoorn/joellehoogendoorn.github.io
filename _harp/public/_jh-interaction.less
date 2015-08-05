@@ -1,0 +1,88 @@
+@jh-button-icon-size: 1.6em;
+@jh-button-title-color: #c94a3a;
+@jh-button-title-color-active: lighten(@jh-button-title-color, 6%);
+
+.jh-button {
+	background: none;
+	border: none;
+	outline: none;
+	color: inherit;
+	padding: 0;
+	margin: 0;
+	&:hover, &:focus, &:active {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+.jh-button-icon {
+	text-align: center;
+	width: @jh-button-icon-size;
+	height: @jh-button-icon-size;
+	line-height: @jh-button-icon-size;
+	border-radius: 9999px;
+}
+
+.jh-button-title {
+	text-transform: uppercase;
+	font-family: @headings-font-family;
+}
+
+@keyframes jh-interactive-background {
+	from { background: rgba(0, 0, 0, 0.0); }
+	to   { background: rgba(0, 0, 0, 0.1); }
+}
+
+@keyframes jh-interactive-background-inverse {
+	from { background: rgba(255, 255, 255, 0.0); }
+	to   { background: rgba(255, 255, 255, 0.1); }
+}
+
+.jh-interactive-color {
+	color: @jh-button-title-color;
+	transition: color 0.2s;
+
+	.jh-interactive-trigger:hover &,
+	.jh-interactive-trigger:focus &,
+	.jh-interactive-trigger:active,
+	&:hover, &:focus, &:active {
+		color: @jh-button-title-color-active;
+	}
+}
+
+.jh-interactive-appear {
+	opacity: 0;
+	transition: all 0.4s;
+
+	.jh-interactive-trigger:hover &,
+	.jh-interactive-trigger:focus &,
+	.jh-interactive-trigger:active,
+	&:hover, &:focus, &:active {
+		opacity: 1;
+	}
+}
+
+.jh-interactive-background {
+
+	.jh-interactive-trigger:hover &,
+	.jh-interactive-trigger:focus &,
+	.jh-interactive-trigger:active,
+	&:hover, &:focus, &:active {
+		animation-name: jh-interactive-background;
+		animation-duration: 0.4s;
+		animation-iteration-count: infinite;
+		animation-direction: alternate;
+		animation-timing-function: ease-in-out;
+		animation-delay: 0s;
+	}
+
+	&.jh-inverse {
+
+		.jh-interactive-trigger:hover &,
+		.jh-interactive-trigger:focus &,
+		.jh-interactive-trigger:active,
+		&:hover, &:focus, &:active {
+			animation-name: jh-interactive-background-inverse;
+		}
+	}
+}

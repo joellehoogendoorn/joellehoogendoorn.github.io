@@ -6,6 +6,7 @@ html(lang="en")
 		title #{ site_title }
 		link(rel="stylesheet", href="/layout.css")
 		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans")
+		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Poiret+One")
 		script(src="/jquery/jquery.min.js")
 		script(src="/bootstrap/bootstrap.min.js")
 		script(src="/navbar.js")
@@ -16,37 +17,38 @@ html(lang="en")
 			.jh-nav-background
 			.jh-nav-container
 				.jh-nav-contents
-					.jh-nav-links
-						.jh-nav-link
-							h1.text-center #[a(href="/") Blog]
-							p.text-justify
-								| Master of Fine Arts stories, works in progress, sketches and philosophy. You'll find it all on my blog.
-						.jh-nav-link
-							h1.text-center #[a(href="/about") About]
-							p.text-justify
-								| I’m a 22-year old aspiring artist who loves spending as much time possible with a painting brush in my hand.
-								| Currently studying Fine Art Painting at the Royal Academy of Fine Arts in Antwerp, Belgium.
-						.jh-nav-link
-							h1.text-center #[a(href="/works") Works]
-							p.text-justify
-								| My main focus is working with subjects that intrigue me and process these subjects in a personal way in my art.
-								| The thread in my work is expressing myself and displaying  feelings. Music is an very important aspect in my paintings.
-							p.text-justify
-								| I get inspired by travelling, every kind of media, cultures and black holes in society.
+					.row
+						.col-lg-3.col-md-4.col-sm-6
+							a.jh-button.jh-interactive-trigger(href="/")
+								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] Blog
+								p.text-justify
+									| Master of Fine Arts stories, works in progress, sketches and philosophy. You'll find it all on my blog.
+						.col-lg-3.col-md-4.col-sm-6
+							a.jh-button.jh-interactive-trigger(href="/about")
+								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] About
+								p.text-justify
+									| I’m a 22-year old aspiring artist who loves spending as much time possible with a painting brush in my hand.
+									| Currently studying Fine Art Painting at the Royal Academy of Fine Arts in Antwerp, Belgium.
+						.col-lg-3.col-md-4.col-sm-6
+							a.jh-button.jh-interactive-trigger(href="/works")
+								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] Works
+								p.text-justify
+									| My main focus is working with subjects that intrigue me and process these subjects in a personal way in my art.
+									| The thread in my work is expressing myself and displaying  feelings. Music is an very important aspect in my paintings.
+								p.text-justify
+									| I get inspired by travelling, every kind of media, cultures and black holes in society.
 
 			.jh-nav-container
 				.jh-nav-controls
-					button.jh-nav-toggle
+					button#jh-nav-main-toggle.jh-button.jh-interactive-trigger
 						.jh-nav-show-active
-							span.jh-nav-color.jh-nav-toggle-text Close
-							span.jh-nav-color.jh-nav-toggle-icon #[i.fa.fa-times.fa-fw]
+							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Close] #[i.jh-button-icon.jh-interactive-background.fa.fa-times ]
 						.jh-nav-show-inactive
-							span.jh-nav-toggle-text Menu
-							span.jh-nav-toggle-icon #[i.fa.fa-bars.fa-fw]
+							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Menu] #[i.jh-button-icon.jh-interactive-background.fa.fa-bars ]
 
 		header
 			.container
-				h1 Joëlle Hoogendoorn
+				h1.jh-brand Joëlle Hoogendoorn
 
 		#main
 			!= yield
@@ -54,13 +56,16 @@ html(lang="en")
 		footer
 			.container.text-center
 				h2(style="text-shadow: white;") Don't be shy, get in touch!
-				ul.list-inline
+				ul.jh-social.list-inline
 					if facebook_url
-						li #[a(href="#{ facebook_url }") #[i.fa.fa-facebook.fa-fw.fa-2x]]
+						li.jh-interactive-trigger
+							a.jh-button.jh-interactive-color(href="#{ facebook_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-facebook]
 					if twitter_url
-						li #[a(href="#{ twitter_url }") #[i.fa.fa-twitter.fa-fw.fa-2x]]
+						li.jh-interactive-trigger
+							a.jh-button.jh-interactive-color(href="#{ twitter_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-twitter]
 					if linkedin_url
-						li #[a(href="#{ linkedin_url }") #[i.fa.fa-linkedin.fa-fw.fa-2x]]
+						li.jh-interactive-trigger
+							a.jh-button.jh-interactive-color(href="#{ linkedin_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-linkedin]
 
 
 				p.text-muted Joëlle Hoogendoorn
