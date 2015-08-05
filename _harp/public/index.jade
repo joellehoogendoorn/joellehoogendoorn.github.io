@@ -1,4 +1,6 @@
 .container
+	h1.page-header Blog
+
 	each article, slug in public.blog._data
 		if slug !== 'index'
 			- var work = public.works._data[article.work_slug];

@@ -1,3 +1,6 @@
+.container
+	h1.page-header Works
+
 each work, slug in public.works._data
 	if work.image_uri
 		a.gallery-item(href="/works/#{ slug }", style="background-image: url('#{ work.thumb_uri }');")

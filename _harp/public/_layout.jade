@@ -17,38 +17,31 @@ html(lang="en")
 			.jh-nav-background
 			.jh-nav-container
 				.jh-nav-contents
+					h1.jh-brand Joëlle Hoogendoorn
 					.row
-						.col-lg-3.col-md-4.col-sm-6
+						.col-md-4.col-sm-6
 							a.jh-button.jh-interactive-trigger(href="/")
-								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] Blog
+								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-comment] Blog
 								p.text-justify
 									| Master of Fine Arts stories, works in progress, sketches and philosophy. You'll find it all on my blog.
-						.col-lg-3.col-md-4.col-sm-6
+						.col-md-4.col-sm-6
 							a.jh-button.jh-interactive-trigger(href="/about")
-								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] About
+								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-user] About
 								p.text-justify
-									| I’m a 22-year old aspiring artist who loves spending as much time possible with a painting brush in my hand.
-									| Currently studying Fine Art Painting at the Royal Academy of Fine Arts in Antwerp, Belgium.
-						.col-lg-3.col-md-4.col-sm-6
+									| I would love to talk to you, but just in case we are unable to meet, I wrote a little story about me.
+						.col-md-4.col-sm-6
 							a.jh-button.jh-interactive-trigger(href="/works")
-								h1.jh-button-title.jh-interactive-color #[i.jh-button-icon.jh-interactive-background.fa.fa-bars] Works
+								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-paint-brush] Works
 								p.text-justify
-									| My main focus is working with subjects that intrigue me and process these subjects in a personal way in my art.
-									| The thread in my work is expressing myself and displaying  feelings. Music is an very important aspect in my paintings.
-								p.text-justify
-									| I get inspired by travelling, every kind of media, cultures and black holes in society.
+									| Enough talking, let me show you some of my works! You can find them here.
 
 			.jh-nav-container
 				.jh-nav-controls
 					button#jh-nav-main-toggle.jh-button.jh-interactive-trigger
 						.jh-nav-show-active
-							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Close] #[i.jh-button-icon.jh-interactive-background.fa.fa-times ]
+							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Close] #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-times ]
 						.jh-nav-show-inactive
 							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Menu] #[i.jh-button-icon.jh-interactive-background.fa.fa-bars ]
-
-		header
-			.container
-				h1.jh-brand Joëlle Hoogendoorn
 
 		#main
 			!= yield

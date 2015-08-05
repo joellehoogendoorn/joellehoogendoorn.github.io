@@ -5,7 +5,6 @@
 .jh-button {
 	background: none;
 	border: none;
-	outline: none;
 	color: inherit;
 	padding: 0;
 	margin: 0;
@@ -42,10 +41,7 @@
 	color: @jh-button-title-color;
 	transition: color 0.2s;
 
-	.jh-interactive-trigger:hover &,
-	.jh-interactive-trigger:focus &,
-	.jh-interactive-trigger:active,
-	&:hover, &:focus, &:active {
+	.jh-interactive-trigger:hover &, &:hover {
 		color: @jh-button-title-color-active;
 	}
 }
@@ -54,20 +50,14 @@
 	opacity: 0;
 	transition: all 0.4s;
 
-	.jh-interactive-trigger:hover &,
-	.jh-interactive-trigger:focus &,
-	.jh-interactive-trigger:active,
-	&:hover, &:focus, &:active {
+	.jh-interactive-trigger:hover &, &:hover {
 		opacity: 1;
 	}
 }
 
 .jh-interactive-background {
 
-	.jh-interactive-trigger:hover &,
-	.jh-interactive-trigger:focus &,
-	.jh-interactive-trigger:active,
-	&:hover, &:focus, &:active {
+	.jh-interactive-trigger:hover &, &:hover {
 		animation-name: jh-interactive-background;
 		animation-duration: 0.4s;
 		animation-iteration-count: infinite;
@@ -78,10 +68,7 @@
 
 	&.jh-inverse {
 
-		.jh-interactive-trigger:hover &,
-		.jh-interactive-trigger:focus &,
-		.jh-interactive-trigger:active,
-		&:hover, &:focus, &:active {
+		.jh-interactive-trigger:hover, &:hover {
 			animation-name: jh-interactive-background-inverse;
 		}
 	}
