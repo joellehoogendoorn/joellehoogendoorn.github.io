@@ -43,8 +43,5 @@
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
 		"date": "2015"
-	},
-	"index": {
-	    "layout": "../_layout.jade"
 	}
 }

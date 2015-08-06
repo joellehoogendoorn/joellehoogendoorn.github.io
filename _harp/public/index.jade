@@ -1,11 +1,22 @@
 .container
-	h1.page-header Blog
+	h1.jh-page-header Blog
 
-	each article, slug in public.blog._data
-		if slug !== 'index'
-			- var work = public.works._data[article.work_slug];
-			- var image_uri = article.image_uri || work.image_uri;
-			- var link_attributes = { style: image_uri ? 'background-image: url(' + image_uri + ');' : undefined };
-			a.article-link(href="/blog/#{ slug }")&attributes(link_attributes)
-				h1 #{ article.title }
-				p #{ article.description }
+	.row
+		- var even = false
+		each article, slug in public.blog._data
+			- var work = public.works._data[article.work_slug]
+			- even = !even
+			a.jh-button.jh-interactive-trigger(href="/blog/#{ slug }")
+				.row
+					if even
+						.col-sm-9
+							h1.jh-interactive-color #{ article.title }
+							p #{ article.description }
+						.col-sm-3
+							img.jh-figure(src="#{ article.thumb_uri }")
+					else
+						.col-sm-3
+							img.jh-figure(src="#{ article.thumb_uri }")
+						.col-sm-9
+							h1.jh-interactive-color #{ article.title }
+							p #{ article.description }

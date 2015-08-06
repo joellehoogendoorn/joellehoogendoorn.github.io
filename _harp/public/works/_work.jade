@@ -1,0 +1,27 @@
+- var works = public.works._data
+- var slugs = Object.keys(works)
+- var currentIndex = slugs.indexOf(current.source)
+- var previousSlug = slugs[currentIndex - 1]
+- var nextSlug = slugs[currentIndex + 1]
+
+img.jh-works-image(src="#{ image_uri }")
+
+if previousSlug
+	a.jh-works-previous.jh-button.jh-interactive-trigger.jh-interactive-color(href="/works/#{ previousSlug }")
+		i.jh-button-icon.jh-interactive-background.fa.fa-chevron-left
+
+if nextSlug
+	a.jh-works-next.jh-button.jh-interactive-trigger.jh-interactive-color(href="/works/#{ nextSlug }")
+		i.jh-button-icon.jh-interactive-background.fa.fa-chevron-right
+
+.jh-works-properties
+	h1 #{ title }
+	p By #{ artist }
+	p #{ date }
+	p #{ dimensions }
+	p #{ medium }
+
+.jh-works-description
+	.container
+		block description
+			p This work does not have a description.

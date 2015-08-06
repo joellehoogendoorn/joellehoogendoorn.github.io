@@ -1,7 +1,10 @@
 .container
-	h1.page-header Works
+	h1.jh-page-header Works
 
-each work, slug in public.works._data
-	if work.image_uri
-		a.gallery-item(href="/works/#{ slug }", style="background-image: url('#{ work.thumb_uri }');")
-			h1 #{ work.title }
+.row
+	each work, slug in public.works._data
+		if work.image_uri
+			.col-xs-6.col-sm-3.col-md-2
+				a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
+					img.jh-figure(src="#{ work.thumb_uri }")
+					h1.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }

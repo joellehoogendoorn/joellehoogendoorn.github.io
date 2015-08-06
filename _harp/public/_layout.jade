@@ -1,72 +1,16 @@
 doctype
 html(lang="en")
 	head
-		meta(charset="utf-8")
-		meta(name="viewport", content="width=device-width, initial-scale=1.0")
-		title #{ site_title }
-		link(rel="stylesheet", href="/layout.css")
-		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans")
-		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Poiret+One")
-		script(src="/jquery/jquery.min.js")
-		script(src="/bootstrap/bootstrap.min.js")
-		script(src="/navbar.js")
+		include _head
+
 
 	body.text-justify
 
-		nav#jh-nav-main
-			.jh-nav-background
-			.jh-nav-container
-				.jh-nav-contents
-					h1.jh-brand Joëlle Hoogendoorn
-					.row
-						.col-md-4.col-sm-6
-							a.jh-button.jh-interactive-trigger(href="/")
-								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-comment] Blog
-								p.text-justify
-									| Master of Fine Arts stories, works in progress, sketches and philosophy. You'll find it all on my blog.
-						.col-md-4.col-sm-6
-							a.jh-button.jh-interactive-trigger(href="/about")
-								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-user] About
-								p.text-justify
-									| I would love to talk to you, but just in case we are unable to meet, I wrote a little story about me.
-						.col-md-4.col-sm-6
-							a.jh-button.jh-interactive-trigger(href="/works")
-								h1.jh-button-title.jh-interactive-color.text-center #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-paint-brush] Works
-								p.text-justify
-									| Enough talking, let me show you some of my works! You can find them here.
-
-			.jh-nav-container
-				.jh-nav-controls
-					button#jh-nav-main-toggle.jh-button.jh-interactive-trigger
-						.jh-nav-show-active
-							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Close] #[i.jh-button-icon.jh-interactive-background.jh-inverse.fa.fa-times ]
-						.jh-nav-show-inactive
-							span.jh-interactive-color #[span.jh-button-title.jh-interactive-appear Menu] #[i.jh-button-icon.jh-interactive-background.fa.fa-bars ]
+		include _nav
 
 		#main
 			!= yield
 
-		footer
-			.container.text-center
-				h2(style="text-shadow: white;") Don't be shy, get in touch!
-				ul.jh-social.list-inline
-					if facebook_url
-						li.jh-interactive-trigger
-							a.jh-button.jh-interactive-color(href="#{ facebook_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-facebook]
-					if twitter_url
-						li.jh-interactive-trigger
-							a.jh-button.jh-interactive-color(href="#{ twitter_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-twitter]
-					if linkedin_url
-						li.jh-interactive-trigger
-							a.jh-button.jh-interactive-color(href="#{ linkedin_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-linkedin]
+		include _footer
 
-
-				p.text-muted Joëlle Hoogendoorn
-
-		script
-			| (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			| (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			| m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			| })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			| ga('create', 'UA-65423178-1', 'auto');
-			| ga('send', 'pageview');
+		include _google-analytics

@@ -1,0 +1,16 @@
+footer
+	.container.text-center
+		h2(style="text-shadow: white;") Don't be shy, get in touch!
+		ul.jh-social.list-inline
+			if facebook_url
+				li.jh-interactive-trigger
+					a.jh-button.jh-interactive-color(href="#{ facebook_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-facebook]
+			if twitter_url
+				li.jh-interactive-trigger
+					a.jh-button.jh-interactive-color(href="#{ twitter_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-twitter]
+			if linkedin_url
+				li.jh-interactive-trigger
+					a.jh-button.jh-interactive-color(href="#{ linkedin_url }", target="_blank") #[i.jh-button-icon.jh-interactive-background.fa.fa-linkedin]
+
+
+		p.text-muted Joëlle Hoogendoorn
