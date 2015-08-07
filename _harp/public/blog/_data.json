@@ -1,26 +1,9 @@
 {
-	"project-clouds": {
-		"title": "Project: Clouds",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices arcu eget enim suscipit, id pulvinar nisl facilisis. Sed ornare felis vitae semper ultricies. Sed id condimentum neque. Praesent sit amet pretium elit. Ut in commodo libero. Nullam et fermentum mi. Duis nec ante accumsan justo feugiat dictum. Nam non blandit augue. ",
-		"work_slug": "clouds",
-		"thumb_uri": "/works/clouds-thumb.jpg",
-		"date": "2015-07-22",
-		"author": "Joëlle Hoogendoorn"
-	},
-	"project-fire": {
-		"title": "Fire",
-		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices arcu eget enim suscipit, id pulvinar nisl facilisis. Sed ornare felis vitae semper ultricies. Sed id condimentum neque. Praesent sit amet pretium elit. Ut in commodo libero. Nullam et fermentum mi. Duis nec ante accumsan justo feugiat dictum. Nam non blandit augue. ",
-		"work_slug": "fire",
-		"thumb_uri": "/works/fire-thumb.jpg",
-		"date": "2015-07-22",
-		"author": "Joëlle Hoogendoorn"
-	},
-	"hero-of-war": {
-		"title": "Hero of war",
-		"description": " bla bla bla Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultrices arcu eget enim suscipit, id pulvinar nisl facilisis. Sed ornare felis vitae semper ultricies. Sed id condimentum neque. Praesent sit amet pretium elit. Ut in commodo libero. Nullam et fermentum mi. Duis nec ante accumsan justo feugiat dictum. Nam non blandit augue. ",
-		"work_slug": "hero-of-war",
-		"thumb_uri": "/works/hero-of-war-thumb.jpg",
-		"date": "2015-07-22",
+	"we-are-online": {
+		"title": "We Are Online!",
+		"description": "Finally, I have a website! Read more about it in my first blogpost! After obtaining my Bachelor Fine Arts Painting diploma, I had a lot of plans for the long summer holiday...",
+		"thumb_uri": "/blog/we-are-online.jpg",
+		"date": "2015-08-07",
 		"author": "Joëlle Hoogendoorn"
 	}
 }
