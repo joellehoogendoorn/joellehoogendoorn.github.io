@@ -15,7 +15,7 @@
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "180 x 200 cm",
 		"medium": "oil paint on linen",
-		"date": "2015"
+		"date": "2014"
 	},
 	"palm-reading": {
 		"title": "Palm Reading",
@@ -24,7 +24,7 @@
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
-		"date": "2015"
+		"date": "2014"
 	},
 	"clouds": {
 		"title": "Clouds",
@@ -42,6 +42,15 @@
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
+		"date": "2015"
+	},
+	"self-portrait": {
+		"title": "Self Portrait",
+		"image_uri": "/works/self-portrait.jpg",
+		"thumb_uri": "/works/self-portrait-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint and pencil on linen",
 		"date": "2015"
 	}
 }
