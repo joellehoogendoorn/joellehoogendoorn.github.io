@@ -17,10 +17,10 @@
 		"medium": "oil paint on linen",
 		"date": "2014"
 	},
-	"palm-reading": {
-		"title": "Palm Reading",
-		"image_uri": "/works/palm-reading.jpg",
-		"thumb_uri": "/works/palm-reading-thumb.jpg",
+	"palm-reading-1": {
+		"title": "Palm Reading I",
+		"image_uri": "/works/palm-reading-1.jpg",
+		"thumb_uri": "/works/palm-reading-1-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "30 x 40 cm",
 		"medium": "oil paint on linen",
