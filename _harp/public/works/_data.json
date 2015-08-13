@@ -52,5 +52,14 @@
 		"dimensions": "24 x 30 cm",
 		"medium": "oil paint and pencil on linen",
 		"date": "2015"
+	},
+		"palm-reading-2": {
+		"title": "Palm Reading II",
+		"image_uri": "/works/palm-reading-2.jpg",
+		"thumb_uri": "/works/palm-reading-2-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "160 x 200 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
 	}
 }
