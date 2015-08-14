@@ -1,4 +1,11 @@
-{
+{	
+	"we-are-painting": {
+		"title": "We Are Painting!",
+		"description": "My parents are on vacation, so that means that I’ll have the whole house for myself! In these two weeks, I was planning on...",
+		"thumb_uri": "/blog/we-are-painting-1.jpg",
+		"date": "2015-08-15",
+		"author": "Joëlle Hoogendoorn"
+	},
 	"we-are-online": {
 		"title": "We Are Online!",
 		"description": "Finally, I have a website! Read more about it in my first blogpost! After obtaining my Bachelor Fine Arts Painting diploma, I had a lot of plans for the long summer holiday...",
@@ -6,4 +13,5 @@
 		"date": "2015-08-07",
 		"author": "Joëlle Hoogendoorn"
 	}
+
 }
