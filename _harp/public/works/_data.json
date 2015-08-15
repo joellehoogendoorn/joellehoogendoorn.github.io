@@ -115,5 +115,41 @@
 		"dimensions": "15 x 21 cm",
 		"medium": "pencil on paper",
 		"date": "2014"
+	},
+	"landscape": {
+		"title": "Landscape",
+		"image_uri": "/works/landscape.jpg",
+		"thumb_uri": "/works/landscape-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "14,5 x 30 cm",
+		"medium": "oil paint and pencil on panel",
+		"date": "2014"
+	},
+	"woman": {
+		"title": "Woman",
+		"image_uri": "/works/woman.jpg",
+		"thumb_uri": "/works/woman-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "135 x 200 cm",
+		"medium": "acrylic and spray paint on linen",
+		"date": "2014"
+	},
+	"woman2": {
+		"title": "Womens",
+		"image_uri": "/works/woman2.jpg",
+		"thumb_uri": "/works/woman2-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "160 x 200 cm",
+		"medium": "acrylics, oil paint and spraypaint on linen",
+		"date": "2014"
+	},
+	"modelpainting-1": {
+		"title": "Modelpainting",
+		"image_uri": "/works/modelpainting-1.jpg",
+		"thumb_uri": "/works/modelpainting-1-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint and paper on linen",
+		"date": "2014"
 	}
 }
