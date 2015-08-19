@@ -14,14 +14,15 @@ if nextSlug
 	a.jh-works-next.jh-button.jh-interactive-trigger.jh-interactive-color(href="/works/#{ nextSlug }")
 		i.jh-button-icon.jh-interactive-background.fa.fa-chevron-right
 
-.jh-works-properties
-	h1 #{ title }
-	p By #{ artist }
-	p #{ date }
-	p #{ dimensions }
-	p #{ medium }
-
-.jh-works-description
-	.container
-		block description
-			p This work does not have a description.
+.container
+	.col-md-4.col-md-push-8
+		.jh-works-properties
+			h1 #{ title }
+			p By #{ artist }
+			p #{ date }
+			p #{ dimensions }
+			p #{ medium }
+	.col-md-8.col-md-pull-4
+		.jh-works-description
+			block description
+				p This work does not have a description.
