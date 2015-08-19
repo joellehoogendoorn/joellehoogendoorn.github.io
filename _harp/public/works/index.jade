@@ -6,5 +6,6 @@
 			if work.image_uri
 				.col-xs-6.col-sm-3
 					a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
-						img.jh-figure(src="#{ work.thumb_uri }")
-						h1.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }
+						.jh-blog-preview
+							img.jh-figure(src="#{ work.thumb_uri }")
+							h1.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }
