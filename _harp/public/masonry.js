@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var msn = $('.grid').masonry({
+	var grid = $('.grid').masonry({
 		columnWidth: '.grid-sizer',
 		itemSelector: '.grid-item',
 		percentPosition: true,
@@ -7,6 +7,6 @@ $(document).ready(function() {
 	});
 
 	$('.grid').imagesLoaded(function() {
-		msn.layout();
+		grid.masonry('layout');
 	})
 });
