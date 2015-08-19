@@ -1,22 +1,12 @@
 .container
 	h1.jh-page-header Blog
 
-	.row
-		- var even = false
+	.grid.row
+		.grid-sizer.col-sm-6.col-md-4
 		each article, slug in public.blog._data
-			- var work = public.works._data[article.work_slug]
-			- even = !even
-			a.jh-button.jh-interactive-trigger(href="/blog/#{ slug }")
-				.row
-					if even
-						.col-sm-9
-							h1.jh-interactive-color #{ article.title }
-							p #{ article.description }
-						.col-sm-3
-							img.jh-figure(src="#{ article.thumb_uri }")
-					else
-						.col-sm-3
-							img.jh-figure(src="#{ article.thumb_uri }")
-						.col-sm-9
-							h1.jh-interactive-color #{ article.title }
-							p #{ article.description }
+			.grid-item.col-sm-6.col-md-4
+				a.jh-button.jh-interactive-trigger(href="/blog/#{ slug }")
+					.jh-blog-preview
+						img.jh-figure(src="#{ article.thumb_uri }")
+						h1.jh-interactive-color #{ article.title }
+					p #{ article.description }
