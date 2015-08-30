@@ -1,11 +1,11 @@
 .container
 	h1.jh-page-header Works
 
-	.row
+	.grid
+		.grid-sizer.jh-col-xs-3
 		each work, slug in public.works._data
-			if work.image_uri
-				.col-xs-6.col-sm-3
-					a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
-						.jh-blog-preview
-							img.jh-figure(src="#{ work.thumb_uri }")
-							h1.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }
+			.grid-item.jh-col-xs-3
+				a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
+					.jh-blog-preview
+						img.jh-image(src="#{ work.thumb_uri }")
+					h1.jh-title-below.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }

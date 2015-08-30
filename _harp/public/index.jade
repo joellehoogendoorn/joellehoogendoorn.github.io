@@ -6,7 +6,7 @@
 		each article, slug in public.blog._data
 			.grid-item.col-sm-6.col-md-4
 				a.jh-button.jh-interactive-trigger(href="/blog/#{ slug }")
+					h1.text-center.jh-interactive-color.jh-interactive-appear #{ article.title }
 					.jh-blog-preview
-						img.jh-figure(src="#{ article.thumb_uri }")
-						h1.jh-interactive-color #{ article.title }
+						img.jh-image(src="#{ article.thumb_uri }")
 					p #{ article.description }

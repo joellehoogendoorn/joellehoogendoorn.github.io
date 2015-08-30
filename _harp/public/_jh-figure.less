@@ -1,7 +1,11 @@
-.jh-figure {
+.jh-image {
 	display: block;
-	margin-top: 40px;
-	margin-bottom: 40px;
 	width: 100%;
 	box-shadow: 0 0 4px rgba(31, 31, 31, 0.6);
+}
+
+.jh-figure {
+	&:extend(.jh-image);
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
