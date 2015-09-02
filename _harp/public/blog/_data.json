@@ -1,4 +1,11 @@
-{	
+{
+	"businesscard": {
+		"title": "Businesscards!",
+		"description": "The website brings a smile to our faces, it is time to create businesscards to share it with the world.",
+		"thumb_uri": "/blog/businesscard-3-front.jpg",
+		"date": "2015-09-02",
+		"author": "Mick van Gelderen"
+	},
 	"we-are-painting": {
 		"title": "We Are Painting!",
 		"description": "My parents are on vacation, so that means that I’ll have the whole house for myself! In these two weeks, I was planning on...",

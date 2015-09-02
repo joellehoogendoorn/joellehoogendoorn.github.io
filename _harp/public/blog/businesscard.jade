@@ -1,0 +1,34 @@
+extends _post
+
+block post
+
+	p The website is up, onto the next challenge: creating business cards. Similar to the website, we needed to both design the product and figure out how to bring it to life.
+
+	p I never knew there were so many materials that can be printed on, all with their own little peculiarities. We were considering #[a(href="http://www.vistaprint.nl/") vistaprint] and #[a(href="http://www.drukwerkdeal.nl/") drukwerkdeal]. Even though drukwerkdeal has #[a(href="http://www.sprout.nl/artikel/ondernemer/waarom-marco-aarnink-drukwerkdeal-verkocht") been aquired] by vistaprint, the quality of its prints is supposed to be better than those from vistaprint, at least according to several reviews. Unsurprisingly, printing business cards at drukwerkdeal is more expensive but in proportion.
+
+	p Designing the business card itself was quite stressful because I had to work on a Mac. And I'm not saying Macs are a bad thing, it is me who is bad at using a Mac. I have become accustomed to all my little windows hotkeys and my sweat little lazer mouse.
+
+	img.jh-figure(src="/blog/businesscard-mouse-vs-mac.jpg", alt="businesscard mouse vs mac")
+
+	p Anyway, since #[a(href="/") www.joellehoogendoorn.com] is all about visuals, we figured it would be nice to use an abstract part of a painting in the design of the business card. There are a couple of paintings that have such a part:
+
+	.row
+		each slug in ['protest', 'unsigned', 'woman', 'women-2']
+			- var work = public.works._data[slug]
+			.col-xs-6.col-sm-3
+				a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
+					img.jh-figure(src="#{ work.thumb_uri }")
+
+	p The flowers on #[a(href="/works/woman") woman] looked extremely appealing to me at first hand. When put into practice however it made the businesscard look like it represented your local flower store. Not exactly what we were going for.
+
+	p Eventually we settled on using a piece of the work #[a(href="/works/protest") protest]. I had to #[a(href="http://www.photoshopessentials.com/photo-editing/reduce-noise/" target="_blank") remove the JPEG artifacts] that were present because there was no raw image available of this painting. The frontside of the card is attention grabbing because of the colorful background. The elegant letters give it a professional and modern feel.
+
+	img.jh-figure(src="/blog/businesscard-3-front.jpg", alt="businesscard frontside")
+
+	p The backside clearly provides two ways to contact Joëlle: through the information on her website or by dialing her number.
+
+	img.jh-figure(src="/blog/businesscard-3-back.jpg", alt="businesscard backside")
+
+
+
+
