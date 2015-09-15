@@ -1,6 +1,14 @@
 {
+
+	"businesscards-have-arrived": {
+		"title": "Business cards have arrived",
+		"description": "The business cards have arrived! And to be honest: I’m proud of the end result!",
+		"thumb_uri": "/blog/businesscards-have-arrived.jpg",
+		"date": "2015-09-15",
+		"author": "Joëlle Hoogendoorn"
+	},
 	"businesscard": {
-		"title": "Businesscards!",
+		"title": "Business cards!",
 		"description": "The website brings a smile to our faces, it is time to create businesscards to share it with the world.",
 		"thumb_uri": "/blog/businesscard-3-front.jpg",
 		"date": "2015-09-02",
