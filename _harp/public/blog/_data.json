@@ -1,8 +1,15 @@
-{	
+{		
+	"modern-witchhunt": {
+		"title": "The Modern Witch hunt",
+		"description": "Here is a blog article about my new painting that’s still in progress.",
+		"thumb_uri": "/blog/modern-witchhunt.jpg",
+		"date": "2015-10-21",
+		"author": "Joëlle Hoogendoorn"
+	},
 	
 	"painting-device": {
 		"title": "The Painting Device",
-		"description": "While checking out Pinterest this summer, my eye cached a wooden thing with nails pinned on it to hang painting tubes on.. ",
+		"description": "While checking out Pinterest this summer, my eye catched a wooden thing with nails pinned on it to hang painting tubes on.. ",
 		"thumb_uri": "/blog/painting-device.jpg",
 		"date": "2015-10-17",
 		"author": "Joëlle Hoogendoorn"
