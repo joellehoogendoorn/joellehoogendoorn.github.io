@@ -1,22 +1,22 @@
 {
 	"behind-the-headlines": {
 		"title": "Behind the Headlines",
-		"image_uri": "/works/Manwithdog.jpg",
-		"thumb_uri": "/works/Manwithdog-thumb.jpg",
+		"image_uri": "/works/behind-the-headlines.jpg",
+		"thumb_uri": "/works/behind-the-headlines-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "180 x 200 cm",
 		"medium": "oil paint on linen",
 		"date": "2016"
-		},
+	},
 	"guiding-light": {
 		"title": "Guiding Light",
-		"image_uri": "/works/GuidingLight.jpg",
-		"thumb_uri": "/works/GuidingLight-thumb.jpg",
+		"image_uri": "/works/guiding-light.jpg",
+		"thumb_uri": "/works/guiding-light-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "180 x 200 cm",
 		"medium": "oil paint on linen",
 		"date": "2015"
-		},
+	},
 	"heading-home": {
 		"title": "Heading Home",
 		"image_uri": "/works/heading-home.jpg",

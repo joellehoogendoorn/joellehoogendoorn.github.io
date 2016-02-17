@@ -6,8 +6,14 @@
   "dependencies": {
     "shelljs": "^0.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "harp": "^0.20.1"
+  },
   "scripts": {
+    "start": "harp server",
+    "build": "harp compile . ..",
+    "update": "npm install && bower install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
