@@ -1,6 +1,52 @@
-{
+{	
+
+	"teardrops": {
+		"title": "Teardrops",
+		"image_uri": "/works/teardrops.jpg",
+		"thumb_uri": "/works/teardrops-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},	
+	"self-portrait-2": {
+		"title": "Self Portrait",
+		"image_uri": "/works/self-portrait-2.jpg",
+		"thumb_uri": "/works/self-portrait-2-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},	
+	"no-problemo": {
+		"title": "No Problemo",
+		"image_uri": "/works/no-problemo.jpg",
+		"thumb_uri": "/works/no-problemo-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},	
+	"man-with-dog-small": {
+		"title": "Man with Dog",
+		"image_uri": "/works/man-with-dog-small.jpg",
+		"thumb_uri": "/works/man-with-dog-small-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"going-home": {
+		"title": "Going Home",
+		"image_uri": "/works/going-home.jpg",
+		"thumb_uri": "/works/going-home-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
 	"behind-the-headlines": {
-		"title": "Behind the Headlines",
+		"title": "Headlines",
 		"image_uri": "/works/behind-the-headlines.jpg",
 		"thumb_uri": "/works/behind-the-headlines-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
@@ -26,6 +72,15 @@
 		"medium": "oil paint on linen",
 		"date": "2015"
 	},
+		"HIWTHI": {
+		"title": "HIWTHI",
+		"image_uri": "/works/HIWTHI.jpg",
+		"thumb_uri": "/works/HIWTHI-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "18 x 24 cm",
+		"medium": "oil paint on linen",
+		"date": "2015"
+	},	
 	"hero-of-war": {
 		"title": "Hero of War",
 		"image_uri": "/works/hero-of-war.jpg",
