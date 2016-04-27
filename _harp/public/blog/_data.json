@@ -1,9 +1,24 @@
 {		
+		"one-week": {
+		"title": "One Work, One Artist, One Week.",
+		"description": "This is a project of a colleague painting student called Dawid. The title says everything: One Work, One Artist, One Week..",
+		"thumb_uri": "/blog/verbloeming.jpg",
+		"date": "2016-04-11",
+		"author": "Joëlle Hoogendoorn"
+	},
+
+		"driven-to-draw": {
+		"title": "Masterclass Driven to Draw",
+		"description": "From March 20 till the 27th I had a Masterclass in France. One I was looking forward to for a very long time. I was so happy when it finally was time to go!..",
+		"thumb_uri": "/blog/driventodraw-2.jpg",
+		"date": "2016-04-01",
+		"author": "Joëlle Hoogendoorn"
+	},
 	"mwh": {
 		"title": "Setting Forth",
 		"description": "If someone would ask me:Which painting took you the longest time to make from all your paintings?’’ I wouldn’t have to think about the answer..",
 		"thumb_uri": "/blog/mwh.jpg",
-		"date": "2016-22-02",
+		"date": "2016-02-22",
 		"author": "Joëlle Hoogendoorn"
 	},	
 	"modern-witchhunt-2": {
