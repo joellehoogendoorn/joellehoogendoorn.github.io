@@ -1,5 +1,77 @@
 {	
-
+		
+	"con-carne": {
+		"title": "Con Carne",
+		"image_uri": "/works/con-carne.jpg",
+		"thumb_uri": "/works/con-carne-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "40 x 50 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"one-trick-pony": {
+		"title": "One-trick Pony",
+		"image_uri": "/works/one-trick-pony.jpg",
+		"thumb_uri": "/works/one-trick-pony-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "180 x 260 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"wild-west-practice": {
+		"title": "Wild West",
+		"image_uri": "/works/wild-west-practice.jpg",
+		"thumb_uri": "/works/wild-west-practice-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "135 x 200 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"verbloeming": {
+		"title": "Verbloeming",
+		"image_uri": "/works/verbloeming.jpg",
+		"thumb_uri": "/works/verbloeming-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "40 x 50 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"dont-take-your-gun": {
+		"title": "Dont Take Your Gun",
+		"image_uri": "/works/dont-take-your-gun.jpg",
+		"thumb_uri": "/works/dont-take-your-gun-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "180 x 200 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"grafische-bloemen": {
+		"title": "Grafische Bloemen",
+		"image_uri": "/works/grafische-bloemen.jpg",
+		"thumb_uri": "/works/grafische-bloemen-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"pang": {
+		"title": "Pang!",
+		"image_uri": "/works/pang.jpg",
+		"thumb_uri": "/works/pang-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "25 x 30 cm",
+		"medium": "Pencil on found paper",
+		"date": "2016"
+	},
+	"cowboy-sketch": {
+		"title": "Cowboy",
+		"image_uri": "/works/cowboy-sketch.jpg",
+		"thumb_uri": "/works/cowboy-sketch-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "9 x 15 cm",
+		"medium": "Pencil and oil paint on paper",
+		"date": "2016"
+	},
 	"teardrops": {
 		"title": "Teardrops",
 		"image_uri": "/works/teardrops.jpg",
