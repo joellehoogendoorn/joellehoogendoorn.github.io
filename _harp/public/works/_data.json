@@ -54,6 +54,15 @@
 		"medium": "oil paint on linen",
 		"date": "2016"
 	},
+	"flowersthick": {
+		"title": "Flowers",
+		"image_uri": "/works/flowersthick.jpg",
+		"thumb_uri": "/works/flowersthick-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
 	"pang": {
 		"title": "Pang!",
 		"image_uri": "/works/pang.jpg",
@@ -70,6 +79,15 @@
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "9 x 15 cm",
 		"medium": "Pencil and oil paint on paper",
+		"date": "2016"
+	},
+	"flower-study": {
+		"title": "Flower Study",
+		"image_uri": "/works/flower-study.jpg",
+		"thumb_uri": "/works/flower-study-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "80 x 100 cm",
+		"medium": "oil paint on linen",
 		"date": "2016"
 	},
 	"teardrops": {
