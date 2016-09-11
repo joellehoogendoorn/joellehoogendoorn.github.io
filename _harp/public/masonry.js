@@ -7,7 +7,7 @@ $(document).ready(function() {
 		transitionDuration: 0
 	});
 
-	$('.grid').imagesLoaded(function() {
+	$('.grid').imagesLoaded().progress(function() {
 		grid.masonry('layout');
 	})
 });
