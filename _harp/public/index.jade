@@ -1,12 +1,13 @@
 .container
 	h1.jh-page-header Blog
 
-	.grid.row
-		.grid-sizer.col-sm-6.col-md-4
+	.grid
+		.grid-sizer.grid-2
+		.gutter-sizer
 		each article, slug in public.blog._data
-			.grid-item.col-sm-6.col-md-4
+			.grid-item.grid-2
 				a.jh-button.jh-interactive-trigger(href="/blog/#{ slug }")
-					h1.text-center.jh-interactive-color.jh-interactive-appear #{ article.title }
 					.jh-blog-preview
 						img.jh-image(src="#{ article.thumb_uri }")
+					h1.text-center.jh-interactive-color #{ article.title }
 					p #{ article.description }

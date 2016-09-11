@@ -15,14 +15,11 @@ if nextSlug
 		i.jh-button-icon.jh-interactive-background.fa.fa-chevron-right
 
 .container
-	.col-md-4.col-md-push-8
-		.jh-works-properties
-			h1 #{ title }
-			p By #{ artist }
-			p #{ date }
-			p #{ dimensions }
-			p #{ medium }
-	.col-md-8.col-md-pull-4
-		.jh-works-description
-			block description
-				p This work does not have a description.
+	.row
+		.col-md-8.col-md-offset-2.col-sm-10.col-sm-offset-1
+			.jh-works-properties
+				h1 #{ title }
+				p By #{ artist }
+				p #{ date }
+				p #{ dimensions }
+				p #{ medium }

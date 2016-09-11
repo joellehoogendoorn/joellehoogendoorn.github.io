@@ -2,10 +2,10 @@
 	h1.jh-page-header Works
 
 	.grid
-		.grid-sizer.jh-col-xs-3
+		.grid-sizer.grid-2
+		.gutter-sizer
 		each work, slug in public.works._data
-			.grid-item.jh-col-xs-3
+			.grid-item.grid-2
 				a.jh-button.jh-interactive-trigger(href="/works/#{ slug }")
 					.jh-blog-preview
 						img.jh-image(src="#{ work.thumb_uri }")
-					h1.jh-title-below.text-center.jh-interactive-color.jh-interactive-appear #{ work.title }
