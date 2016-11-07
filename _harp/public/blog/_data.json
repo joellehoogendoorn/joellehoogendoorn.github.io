@@ -1,35 +1,40 @@
 {		
-			"new-studio": {
+	"open-studio": {
+		"title": "South Explorer: Open Studios",
+		"description": "This weekend (October 29, 30) I participated with the event South Explorer..",
+		"thumb_uri": "/blog/open-studio-4.jpg",
+		"date": "2016-10-30",
+		"author": "Joëlle Hoogendoorn"
+	},
+	"new-studio": {
 		"title": "New Studio",
 		"description": "After living for years in the great Flemish city Antwerp...",
 		"thumb_uri": "/blog/new-studio-3.jpg",
 		"date": "2016-09-10",
 		"author": "Joëlle Hoogendoorn"
 	},
-			"beuling": {
+	"beuling": {
 		"title": "A-Tower: Etage22",
 		"description": "Afstuderen in de schilderkunst is als afgevoerd worden naar de slachtbank. Men weet niet wat er komen gaat..",
 		"thumb_uri": "/blog/beuling-1.jpg",
 		"date": "2016-08-07",
 		"author": "Joëlle Hoogendoorn"
 	},
-			"capital-m": {
+	"capital-m": {
 		"title": "Capital M: The Master Exhibition",
 		"description": "While I just graduated this summer (Master of Fine Arts yay!), I had enough things to do to keep me busy including: Capital M.",
 		"thumb_uri": "/blog/capitalm-5.jpg",
 		"date": "2016-08-05",
 		"author": "Joëlle Hoogendoorn"
 	},
-
-		"one-week": {
+	"one-week": {
 		"title": "One Work, One Artist, One Week.",
 		"description": "This is a project of a colleague painting student called Dawid. The title says everything: One Work, One Artist, One Week..",
 		"thumb_uri": "/blog/verbloeming.jpg",
 		"date": "2016-04-11",
 		"author": "Joëlle Hoogendoorn"
 	},
-
-		"driven-to-draw": {
+	"driven-to-draw": {
 		"title": "Masterclass Driven to Draw",
 		"description": "From March 20 till the 27th I had a Masterclass in France. One I was looking forward to for a very long time. I was so happy when it finally was time to go!..",
 		"thumb_uri": "/blog/driventodraw-2.jpg",
