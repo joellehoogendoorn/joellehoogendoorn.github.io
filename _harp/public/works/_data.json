@@ -1,20 +1,20 @@
 {	
 		
-	"con-carne": {
-		"title": "Con Carne",
-		"image_uri": "/works/con-carne.jpg",
-		"thumb_uri": "/works/con-carne-thumb.jpg",
+	"lilith-sketch": {
+		"title": "Lilium longiflorum",
+		"image_uri": "/works/lilith-sketch.jpg",
+		"thumb_uri": "/works/lilith-sketch-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
-		"dimensions": "40 x 50 cm",
-		"medium": "oil paint on linen",
-		"date": "2016"
+		"dimensions": "A5",
+		"medium": "Pencil on Paper",
+		"date": "2017"
 	},
 	"one-trick-pony": {
 		"title": "One-trick Pony",
 		"image_uri": "/works/one-trick-pony.jpg",
 		"thumb_uri": "/works/one-trick-pony-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
-		"dimensions": "180 x 260 cm",
+		"dimensions": "180 x 250 cm",
 		"medium": "oil paint on linen",
 		"date": "2016"
 	},
@@ -42,6 +42,15 @@
 		"thumb_uri": "/works/dont-take-your-gun-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
 		"dimensions": "180 x 200 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},
+	"con-carne": {
+		"title": "Con Carne",
+		"image_uri": "/works/con-carne.jpg",
+		"thumb_uri": "/works/con-carne-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "40 x 50 cm",
 		"medium": "oil paint on linen",
 		"date": "2016"
 	},
