@@ -1,5 +1,85 @@
-{	
-		
+{		
+	"time-to-hunt": {
+		"title": "Time to Hunt",
+		"image_uri": "/works/time-to-hunt.jpg",
+		"thumb_uri": "/works/time-to-hunt-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 34 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},			
+	"flowers-thick-blue": {
+		"title": "Flowers",
+		"image_uri": "/works/flowers-thick-blue.jpg",
+		"thumb_uri": "/works/flowers-thick-blue-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "18 x 24 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},		
+	"prance-1-6": {
+		"title": "Prance #1 - #6",
+		"image_uri": "/works/prance-1-6.jpg",
+		"thumb_uri": "/works/prance-1-6-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "6 x 24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016 + 2017"
+	},		
+	"prance-1-site": {
+		"title": "Prance #1",
+		"image_uri": "/works/prance-1-site.jpg",
+		"thumb_uri": "/works/prance-1-site-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},		
+	"prance-2-site": {
+		"title": "Prance #2",
+		"image_uri": "/works/prance-2-site.jpg",
+		"thumb_uri": "/works/prance-2-site-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},		
+	"prance-3-site": {
+		"title": "Prance #3",
+		"image_uri": "/works/prance-3-site.jpg",
+		"thumb_uri": "/works/prance-3-site-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},		
+	"prance-4-site": {
+		"title": "Prance #4",
+		"image_uri": "/works/prance-4-site.jpg",
+		"thumb_uri": "/works/prance-4-site-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},	
+	"flowers-red-blue": {
+		"title": "Flowers Red Blue",
+		"image_uri": "/works/flowers-red-blue.jpg",
+		"thumb_uri": "/works/flowers-red-blue-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "95 x 125 cm",
+		"medium": "oil paint on linen",
+		"date": "2016"
+	},		
+	"wild-west-sketch": {
+		"title": "Wild West Sketch",
+		"image_uri": "/works/wild-west-sketch.jpg",
+		"thumb_uri": "/works/wild-west-sketch-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "A4",
+		"medium": "Aquarel on Paper",
+		"date": "2016"
+	},	
 	"lilith-sketch": {
 		"title": "Lilium longiflorum",
 		"image_uri": "/works/lilith-sketch.jpg",
