@@ -1,4 +1,32 @@
 {		
+	"instagram": {
+		"title": "Follow me on Instagram!",
+		"description": "Since a while I have become an active member of Instagram!",
+		"thumb_uri": "/blog/at-work.jpg",
+		"date": "2017-03-06",
+		"author": "Joëlle Hoogendoorn"
+	},	
+	"affordable-art-fair": {
+		"title": "Affordable Art Fair Brussels",
+		"description": "From the 16th of february untill the the 20th of February the Affordable Art Fair took place in Brussels..",
+		"thumb_uri": "/blog/aaf.jpg",
+		"date": "2017-03-01",
+		"author": "Joëlle Hoogendoorn"
+	},	
+	"solo-exhibition": {
+		"title": "Solo Exhibition One-trick Pony",
+		"description": "From 19.01.2017 till 26.02.2017 I had a solo exhibition called ‘’One-trick Pony’’ at the Lifeisart Gallery in Antwerp!",
+		"thumb_uri": "/blog/exhibition-photo-me.jpg",
+		"date": "2017-02-28",
+		"author": "Joëlle Hoogendoorn"
+	},	
+	"adaa-to-be": {
+		"title": "ADAA To Be Antwerp",
+		"description": "After the summer it was good to get to work again! In November, I participated in an event called ADAA to be...",
+		"thumb_uri": "/blog/adaa-cover.jpg",
+		"date": "2016-11-01",
+		"author": "Joëlle Hoogendoorn"
+	},
 	"open-studio": {
 		"title": "South Explorer: Open Studios",
 		"description": "This weekend (October 29, 30) I participated with the event South Explorer..",
