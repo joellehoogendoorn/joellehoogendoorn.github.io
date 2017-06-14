@@ -1,13 +1,49 @@
 {		
+	"levitate": {
+		"title": "Levitate",
+		"image_uri": "/works/levitate.jpg",
+		"thumb_uri": "/works/levitate-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "180 x 220 cm",
+		"medium": "spraypaint and oil paint on linen",
+		"date": "2017"
+	},	
+	"beautyisonlyskindeep": {
+		"title": "Beauty is only skin deep",
+		"image_uri": "/works/beautyisonlyskindeep.jpg",
+		"thumb_uri": "/works/beautyisonlyskindeep-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "18 x 24 cm",
+		"medium": "spraypaint and oil paint on linen",
+		"date": "2017"
+	},	
+	"lavieenrose": {
+		"title": "La vie en rose",
+		"image_uri": "/works/lavieenrose.jpg",
+		"thumb_uri": "/works/lavieenrose-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2017"
+	},	
+	"lumiere": {
+		"title": "Lumière",
+		"image_uri": "/works/lumiere.jpg",
+		"thumb_uri": "/works/lumiere-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "30 x 40 cm",
+		"medium": "oil paint on linen",
+		"date": "2017"
+	},			
 	"time-to-hunt": {
 		"title": "Time to Hunt",
 		"image_uri": "/works/time-to-hunt.jpg",
 		"thumb_uri": "/works/time-to-hunt-thumb.jpg",
 		"artist": "Joëlle Hoogendoorn",
-		"dimensions": "24 x 34 cm",
+		"dimensions": "24 x 30 cm",
 		"medium": "oil paint on linen",
 		"date": "2016"
-	},			
+	},		
 	"flowers-thick-blue": {
 		"title": "Flowers",
 		"image_uri": "/works/flowers-thick-blue.jpg",
@@ -16,7 +52,16 @@
 		"dimensions": "18 x 24 cm",
 		"medium": "oil paint on linen",
 		"date": "2016"
-	},		
+	},
+	"picobello": {
+		"title": "Pico Bello",
+		"image_uri": "/works/picobello.jpg",
+		"thumb_uri": "/works/picobello-thumb.jpg",
+		"artist": "Joëlle Hoogendoorn",
+		"dimensions": "24 x 30 cm",
+		"medium": "oil paint on linen",
+		"date": "2017"
+	},			
 	"prance-1-6": {
 		"title": "Prance #1 - #6",
 		"image_uri": "/works/prance-1-6.jpg",
