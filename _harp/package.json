@@ -3,14 +3,11 @@
   "version": "0.1.0",
   "description": "",
   "main": "make.js",
-  "dependencies": {
-    "bower": "^1.8.0",
-    "harp": "^0.23.0",
-    "shelljs": "^0.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "bower": "^1.7.7",
-    "harp": "^0.20.1"
+    "bower": "^1.8.0",
+    "harp": "^0.24.0",
+    "shelljs": "^0.5.1"
   },
   "scripts": {
     "start": "harp server",
